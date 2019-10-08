@@ -1,0 +1,19 @@
+{
+    "name": "dmg/browserupdatenotifier",
+    "type": "typo3-cms-extension",
+    "description": "Browser Update Notifier for checking which client the browser has and if an unwanted old version is on the client-side you can give a warning or the option to download a newer browser.",
+    "homepage": "https://dmg.eu",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^8.7",
+        "typo3/cms-rte-ckeditor": "^8.7",
+        "typo3/cms-fluid-styled-content": "^8.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dmg\\Browserupdatenotifier\\": "Classes/"
+        }
+    }
+}
