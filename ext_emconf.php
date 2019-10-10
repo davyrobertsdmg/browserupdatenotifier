@@ -4,16 +4,12 @@
  * Extension Manager/Repository config file for ext "browserupdatenotifier".
  */
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'browserupdatenotifier',
+    'title' => 'Browser Update Notifier',
     'description' => 'Browser Update Notifier for checking which client the browser has and if an unwanted old version is on the client-side you can give a warning or the option to download a newer browser.',
-    'category' => 'templates',
+    'category' => 'misc',
     'constraints' => [
         'depends' => [
             'typo3' => '8.7.0-8.7.99',
-            'fluid_styled_content' => '8.7.0-8.7.99',
-            'rte_ckeditor' => '8.7.0-8.7.99'
-        ],
-        'conflicts' => [
         ],
     ],
     'autoload' => [
@@ -28,5 +24,5 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'Davy Roberts',
     'author_email' => 'd.roberts@dmg.eu',
     'author_company' => 'DMG',
-    'version' => '0.0.1',
+    'version' => '1.0.0',
 ];
