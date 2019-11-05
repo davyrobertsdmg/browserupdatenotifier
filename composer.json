@@ -1,5 +1,5 @@
 {
-    "name": "dmg/browserupdatenotifier",
+    "name": "davyrobertsdmg/browserupdatenotifier",
     "type": "typo3-cms-extension",
     "description": "Browser Update Notifier for checking which client the browser has and if an unwanted old version is on the client-side you can give a warning or the option to download a newer browser.",
     "homepage": "https://dmg.eu",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dmg\\Browserupdatenotifier\\": "Classes/"
+            "DavyrobertsDmg\\Browserupdatenotifier\\": "Classes/"
         }
     }
 }
